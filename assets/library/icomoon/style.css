@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vyfpbx');
+  src:  url('fonts/icomoon.eot?vyfpbx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vyfpbx') format('truetype'),
+    url('fonts/icomoon.woff?vyfpbx') format('woff'),
+    url('fonts/icomoon.svg?vyfpbx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tattoo:before {
+  content: "\e906";
+}
+.icon-tattoo-needles:before {
+  content: "\e907";
+}
+.icon-facebook-icon:before {
+  content: "\e900";
+}
+.icon-insta-icon:before {
+  content: "\e901";
+}
+.icon-right-double-icon:before {
+  content: "\e902";
+}
+.icon-tiktok-icon:before {
+  content: "\e903";
+}
+.icon-x-icon:before {
+  content: "\e904";
+}
+.icon-full-body-tattoo:before {
+  content: "\e905";
+}
