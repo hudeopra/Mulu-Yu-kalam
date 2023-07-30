@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../library/icomoon/fonts/icomoon.eot?vyfpbx');
-    src: url('../library/icomoon/fonts/icomoon.eot?vyfpbx#iefix') format('embedded-opentype'),
-        url('../library/icomoon/fonts/icomoon.ttf?vyfpbx') format('truetype'),
-        url('../library/icomoon/fonts/icomoon.woff?vyfpbx') format('woff'),
-        url('../library/icomoon/fonts/icomoon.svg?vyfpbx#icomoon') format('svg');
+    src: url('../library/icomoon/fonts/icomoon.eot?9jan20');
+    src: url('../library/icomoon/fonts/icomoon.eot?9jan20#iefix') format('embedded-opentype'),
+        url('../library/icomoon/fonts/icomoon.ttf?9jan20') format('truetype'),
+        url('../library/icomoon/fonts/icomoon.woff?9jan20') format('woff'),
+        url('../library/icomoon/fonts/icomoon.svg?9jan20#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -24,6 +24,10 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-top:before {
+    content: "\e908";
 }
 
 .icon-tattoo:before {

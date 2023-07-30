@@ -52,25 +52,22 @@
                     <div class="ph-header__menu">
                         <ul>
                             <li class="current_page_item">
-                                <a href="">Home</a>
+                                <a href="#top">Home</a>
                             </li>
                             <li>
-                                <a href="">About Me</a>
+                                <a href="#about">About Me</a>
                             </li>
                             <li>
-                                <a href="">Services</a>
+                                <a href="#services">Services</a>
                             </li>
                             <li>
-                                <a href="">Team</a>
+                                <a href="#team">Team</a>
                             </li>
                             <li>
-                                <a href="">Blog</a>
+                                <a href="#contact-section">Contact</a>
                             </li>
                             <li>
-                                <a href="">Contact</a>
-                            </li>
-                            <li>
-                                <a  class="ph-btn" href="">Book Appointment</a>
+                                <a class="ph-btn" target="_blank" href="https://forms.gle/eeVn9Yc29g2H3iCa6">Book Appointment</a>
                             </li>
                         </ul>
                     </div>
@@ -82,7 +79,9 @@
     <!-- main starts -->
     <main class="ph-homepage">
         <!-- section starts -->
-        <section class="ph-banner">
+        <a href="#top" class="icon-top"></a>
+
+        <section class="ph-banner" id="banner-section top">
             <div class="ph-banner-slider">
                 <div class="ph-banner__item">
                     <div class="ph-banner__item--img">
@@ -107,7 +106,7 @@
         </section>
         <!-- section ends -->
         <!-- section starts -->
-        <section class="ph-about ph-section__padding-lg--tb">
+        <section class="ph-about ph-section__padding-lg--tb" id="about">
             <div class="container">
                 <div class="row">
                     
@@ -171,7 +170,7 @@
         </section>
         <!-- section ends -->
         <!-- section starts -->
-        <section class="ph-gallery text-center ph-section__padding-lg--tb">
+        <section class="ph-gallery text-center ph-section__padding-lg--tb" id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 mx-auto">
@@ -192,13 +191,13 @@
                         <div class="ph-gallery__wrapper">
                             <ul class="nav nav-tabs justify-content-center mb-5" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                                    <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Tattoo 1</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                                    <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Tattoo 2</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                                    <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Tattoo 3</button>
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
@@ -314,24 +313,30 @@
         </section>
         <!-- section ends -->
         <!-- section starts -->
-        <section class="ph-team">
+        <section class="ph-team ph-section__padding-lg--tb" id="team">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <span class="ph-section__title">
-
+                            Our Professional Team
                         </span>
                         <h2 class="ph-section__heading">
-
+                            MEET The ARTISTS
                         </h2>
                         <p>
-
+                            Our seasoned and skilled team of tattoo artists is ready to enhance your life with an absolutely awesome set of tattoo images and/or creative piercing!                            
+                        </p>
+                        <p>
+                            Ink Bazzar has a team of talented and highly creative artists whose main goal is not just to keep you satisfied but also impress you with a unique art that will help you stand out from the crowd. The experience and unmatched skills of our tattooists are reasons of our studio success.
                         </p>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="ph-team__item">
                             <img src="assets/img/artist.jpg" alt="">
                             <div class="ph-team__social">
+                                <a href="javascript:void(0)" class="ph-team__social--trigger">
+                                    <span class="icon-x-icon"></span>
+                                </a>
                                 <ul>
                                     <li>
                                         <a href="">
@@ -349,8 +354,6 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <a href="javascript:void(0)" class="ph-team__social--trigger">
-                                    <span class="icon-x-icon"></span></a>
                             </div>
                         </div>
                     </div>
@@ -359,30 +362,26 @@
         </section>
         <!-- section ends -->
         <!-- section starts -->
-        <section class="ph-contact">
+        <section class="ph-contact ph-section__padding-lg--tb" id="contact-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14138.109563619284!2d85.33556338163392!3d27.639150275121576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb17462b886149%3A0x7cae1349e66c69f7!2sHarisiddhi%2C%20Lalitpur%2044700!5e0!3m2!1sen!2snp!4v1688364565313!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14138.109563619284!2d85.33556338163392!3d27.639150275121576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb17462b886149%3A0x7cae1349e66c69f7!2sHarisiddhi%2C%20Lalitpur%2044700!5e0!3m2!1sen!2snp!4v1688364565313!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="ph-section__content">
                             <span class="ph-section__title">
-
+                                Get in touch
                             </span>
                             <h2 class="ph-section__heading">
-    
+                                MAKE AN APPOINTMENT
                             </h2>
                             <p>
-    
+                                The best way to enjoy a treatment at our studio is to book an appointment with the desired tattoo artist. Fill in the form below and we will contact you to discuss your appointment.
                             </p>
                         </div>
                         <div class="ph-form-wrapper">
-                            <form action="">
-                                <div class="ph-input-wrapper">
-                                    <input type="text">
-                                </div>
-                            </form>
+                            <a class="ph-btn" target="_blank"  href="https://forms.gle/eeVn9Yc29g2H3iCa6">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -390,7 +389,7 @@
         </section>
         <!-- section ends -->
         <!-- section starts -->
-        <section class="ph-blog">
+        <section class="ph-blog d-none">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4">
@@ -451,7 +450,7 @@
     <footer class="ph-footer  text-center">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 d-none">
                     <div class="ph-newsletter">
                         <span class="ph-section__title">
 
@@ -474,7 +473,7 @@
                             </ul>
                         </nav>
                         <p class="ph-copyright">
-                            
+                            Copyright © 2023 Mulu Yu kalam. All rights reserved.
                         </p>
                     </div>
                 </div>
